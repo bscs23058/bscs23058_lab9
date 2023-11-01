@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="bscs23058css.css">
+    <title>Apple Products</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bscs23058home.html">Home</a></li>
+                <li><a href="bscs23058product.html">Products</a></li>
+                <li><a href="bscs23058contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Product 1 -->
+    <section class="product">
+        <img src="bscs23058iphone15.jpeg" alt="iphone 15" class="image-size">
+        <h2>NEW MODEL: IPHONE 15</h2>
+        <p class="price"><del>$999.99</del> $888.99</p>
+        <p class="availability">Only 20 left in stock!</p>
+        <button class="buy-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+    </section>
+
+    <!-- Product 2 -->
+    <section class="product">
+        <img src="ipad.jpg" alt="ipad">
+        <h2>IPAD 11TH GENERATION</h2>
+        <p class="price"><del>$999.99</del> $888.99</p>
+        <p class="availability">In stock!</p>
+        <button class="buy-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+    </section>
+
+    <!-- Product 3 -->
+    <section class="product">
+        <img src="macbook.jpg" alt="mac book">
+        <h2>MAC BOOK</h2>
+        <p class="price"><del>$999.99</del> $888.99</p>
+        <p class="availability">Only 7 left in stock!</p>
+        <button class="buy-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+    </section>
+    <!-- Product 4 -->
+    <section class="product">
+        <img src="airpods.jpeg" alt="air pods">
+        <h2>AIR PODS</h2>
+        <p class="price"><del>$70.99</del> $50.99</p>
+        <p class="availability">Out of stock!</p>
+        <button class="buy-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+
+        <!-- Product 5 -->
+        <section class="product">
+            <img src="watch.jpeg" alt="watch">
+            <h2> WATCH</h2>
+            <p class="price"></del> $43.99</p>
+            <p class="availability">In stock!</p>
+            <button class="buy-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+        </section>
+        <button id="back-to-top-button" class="back-to-top-button" style="background-color: #333; color: #fff; font-family: Arial, sans-serif; font-size: 1.2em; font-weight: bold; border-radius: 10px;">Click here to go to top</button>
+
+        <script>
+     const backButton = document.getElementById("back-to-top-button");
+
+     backButton.addEventListener("click", () => {
+         document.documentElement.scrollTop = 0;
+     });
+        </script>
+
+</body>
+</html>
+

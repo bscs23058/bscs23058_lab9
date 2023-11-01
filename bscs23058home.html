@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="bscs23058css.css">
+
+    <title>APPLE</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bscs23058home.html">Home</a></li>
+                <li><a href="bscs23058product.html">Products</a></li>
+                <li><a href="bscs23058contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1: About Us -->
+    <section class="about-us">
+        <div class="slider">
+            <!-- First slide -->
+            <div class="slide">
+                <img src="applelogo.jpg" alt="About Us Image">
+                <h1>APPLE </h1>
+                <p>The NUMBER 1 MOBILE COMPANY</p>
+            </div>
+            <!-- Second slide -->
+            <div class="slide">
+                <img src="bscs23058iphone15.jpeg" alt="iphone15">
+                <h2> IPHONE15</h2>
+                <p>Get it now for only $999</p>
+                <a href="bscs23058product.html" class="button">Buy Now</a>
+            </div>
+            <!-- Third slide -->
+            <div class="slide">
+                <img src="iphone15close.jpeg" alt="iphone 15 close">
+                <h2> 3D-CAMERA LOOK OF IPHONE 15</h2>
+                <p>Only 2 colors are available</p>
+                <a href="bscs23058product.html" class="button">Buy Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2: Check Our Products -->
+    <section class="products">
+        <div class="usp">
+            <i class="fas fa-truck"></i>
+            <p>Free shipping on orders over $70</p>
+        </div>
+        <div class="usp">
+            <i class="fas fa-star"></i>
+            <p>9.7/10 rating from over 1000 reviews</p>
+        </div>
+        <div class="usp">
+            <i class="fas fa-percent"></i>
+            <p>Up to 50% off on selected items</p>
+        </div>
+        <a href="bscs23058product.html" class="button">View Products</a>
+    </section>
+
+    <!-- Section 3: Footer -->
+    <footer class="contact-details">
+        <h2 style="font-size: 2em; color: #ff5722;">Contact Details:</h2>
+        <p><i class="fas fa-phone"></i> Cell Number:1 800 275 2273 </p>
+        <p><i class="fas fa-envelope"></i> Email: support@apple.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Location: johar town lahore</p>
+    </footer>
+    <!-- Back to Top Button -->
+    <button id="back-to-top-button" class="back-to-top-button" style="background-color: #333; color: #fff; font-family: Arial, sans-serif; font-size: 1.2em; font-weight: bold; border-radius: 10px;">Click here to go to top</button>
+
+    <script>
+        const backButton = document.getElementById("back-to-top-button");
+
+        backButton.addEventListener("click", () => {
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        });
+    </script>
+</body>
+</html>
